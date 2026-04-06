@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+<!-- ===== HOME ===== -->
 <header>
-    <h1>Your Name</h1>
-    <p>Short Introduction</p>
+    <h1>SAGAR CHITYAL</h1>
+    <p>Welcome to my portfolio</p>
+
+    <!-- Your Photo -->
+    <img src="assets/images/myphoto.jpg" alt="My Photo" width="150">
 </header>
 
+<!-- ===== NAVIGATION ===== -->
 <nav>
     <a href="#about">About</a>
     <a href="#achievements">Achievements</a>
@@ -19,30 +26,73 @@
     <a href="#contact">Contact</a>
 </nav>
 
+<!-- ===== ABOUT ===== -->
 <section id="about">
     <h2>About Me</h2>
-    <p>Education, interests, goals</p>
+    <p>I am a student interested in technology, AI, and web development.</p>
 </section>
 
+<!-- ===== ACHIEVEMENTS ===== -->
 <section id="achievements">
-    <h2>Achievements</h2>
-    <p>Certificates, awards</p>
+    <h2>Achievements & Certificates</h2>
+
+    <h3>Coursera</h3>
+    <img src="assets/certificates/coursera1.jpg" width="200">
+
+    <h3>NetAcad</h3>
+    <img src="assets/certificates/netacad1.jpg" width="200">
+
+    <h3>Yuva AI</h3>
+    <img src="assets/certificates/yuva1.jpg" width="200">
 </section>
 
+<!-- ===== PROJECTS ===== -->
 <section id="projects">
-    <h2>Projects</h2>
-    <p>AI4A, Design Thinking, ACE</p>
+    <h2>My Projects</h2>
+
+    <div>
+        <h3>AI4A Project</h3>
+        <img src="assets/projects/ai4a.png" width="250">
+        <p>AI-based solution project description.</p>
+    </div>
+
+    <div>
+        <h3>Design Thinking Project</h3>
+        <img src="assets/projects/design.png" width="250">
+        <p>Problem-solving project using design thinking.</p>
+    </div>
+
+    <div>
+        <h3>ACE Project</h3>
+        <img src="assets/projects/ace.png" width="250">
+        <p>Applied coding experience project.</p>
+    </div>
+
 </section>
 
+<!-- ===== GALLERY ===== -->
 <section id="gallery">
     <h2>Gallery</h2>
+
+    <!-- Photos + Certificates Together -->
+    <img src="assets/images/event1.jpg" width="150">
+    <img src="assets/images/event2.jpg" width="150">
+    <img src="assets/certificates/coursera1.jpg" width="150">
+    <img src="assets/certificates/netacad1.jpg" width="150">
 </section>
 
+<!-- ===== CONTACT ===== -->
 <section id="contact">
-    <h2>Contact</h2>
-    <p>Email | LinkedIn | GitHub</p>
+    <h2>Contact Me</h2>
+    <p>Email: your@email.com</p>
+    <p>Phone: 1234567890</p>
+    <p>GitHub: github.com/yourname</p>
 </section>
+
+<!-- ===== DARK MODE BUTTON ===== -->
+<button onclick="toggleDarkMode()">Toggle Dark Mode</button>
 
 <script src="script.js"></script>
+
 </body>
 </html>
